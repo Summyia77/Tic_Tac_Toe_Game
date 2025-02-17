@@ -1,0 +1,68 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image:url("https://img.freepik.com/free-vector/animals-playing-park_1308-73331.jpg?t=st=1738588263~exp=1738591863~hmac=678bf95bd04336730a1aa51110c0298208667359b88409874b0de3fa617fc24f&w=740");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align:center;
+    color:white;
+
+}
+h1{
+    text-shadow: green 2px 2px;
+}
+.board {
+    text-align:center;
+    display: grid;
+    grid-template-columns: repeat(3, 86px);
+    grid-gap: 8px;
+    margin-bottom: 20px;
+
+}
+.box{
+    background-color: rgba(0, 0, 0, 0.8); /* Black with 50% opacity */
+padding:20px 50px;
+border-radius:30px;
+box-shadow: 1px 1px 6px 12px rgba(255, 255, 255, 0.84);}
+
+.cell {
+    width: 80px;
+    height: 80px;
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: black;
+}
+
+.message {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: yellow;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: green;
+    border-radius:20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: red;
+}

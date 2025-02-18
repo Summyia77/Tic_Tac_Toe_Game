@@ -31,7 +31,7 @@ A classic Tic Tac Toe game built with HTML, CSS, and JavaScript where two player
 * CSS 🎨
 * JavaScript ☕
 * Github 🎯
-* Firebase for hosting
+* Firebase for hosting 🌐
 
 ## Contact
 Let's connect!
